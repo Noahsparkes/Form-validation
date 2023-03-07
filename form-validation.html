@@ -8,25 +8,31 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div class="form">
         <h1>Registration Form</h1>
-    </div>
+    
         <form>
-            <p>User id<input type=”id” required min=5 max=12></p>
-            <p>Password<input type="password" required min=7 max=12></p>
-            <p>Name<input type="text" name="name" required></p>
-            <p>Address<input type="Addressing" name="address" optional></p>
-            <p>Country<select input type="Country" name="country" required>
+            <p>User id: <input type=”id” required min=5 max=12></p>
+            <p>Password: <input type="password" required min=7 max=12></p>
+            <p>Name: <input type="text" name="name" required></p>
+            <p>Address: <input type="Addressing" name="address" optional></p>
+            <p>Country: <select input type="Country" name="country" required>
                 <option>Kenya</option>
                 <option>South Africa</option>
                 <option>Botswana</option>
             </select></p>
-            <p>Zip code<input type="zip" type="number"></p>
-            <p>email address<input type="email" name="email" required></p>
-            
-
-        </form>
+            <p>Zip code: <input type="zip" type="number"></p>
+            <p>email address: <input type="email" name="email" required></p>
+            <p>Sex: <INPUT TYPE="Radio" Name="Gender" Value="Male">Male
+                <INPUT TYPE="Radio" Name="Gender" Value="Female" required>Female</p>
+            <p>Language: <INPUT TYPE="Checkbox" Name="Language" Value ="English" required>English
+                <INPUT TYPE="Checkbox" Name= "Language" Value ="Non-English" >Non-English</p>
+                    
+                    <p>About: <input type="textbox" id="about" name="about"></p>
+                    <input type="submit" value="Submit">
                
+        </form>
+    </div>     
             
 </body>
 </html>
